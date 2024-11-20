@@ -52,7 +52,8 @@ app.frame('/', (c) => {
             whiteSpace: 'pre-wrap',
           }}
         >
-          {status === 'response' ? `Claim $SOCIAL` : ' CLAIM YOUR $SOCIAL AIRDROP '}
+          {status === 'response' ? `Claim $SOCIAL` : ' $SOCIAL '}
+        </div>
       </div>
     ),
     intents: [
