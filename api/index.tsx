@@ -43,7 +43,7 @@ app.frame('/', (c) => {
         }}
       >
         <div
-          class="relative w-full cursor-pointer border-0 border-b border-faint" style="aspect-ratio: 1 / 1;"><img src="https://i.ibb.co.com/vPd2HC6/GXw-Ciopak-AEQ3l-X.jpg" alt="Farcaster frame image" class="absolute inset-0 h-full w-full object-cover" style="aspect-ratio: 1 / 1; opacity: 1;">
+          class="relative w-full cursor-pointer border-0 border-b border-faint" style="aspect-ratio: 1 / 1;"><img src="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/b2203320-3307-4a1a-7cbb-299bec5efb00/rectcontain3" alt="Farcaster frame image" class="absolute inset-0 h-full w-full object-cover" style="aspect-ratio: 1 / 1; opacity: 1;">
         </div>
       </div>
     ),
