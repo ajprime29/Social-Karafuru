@@ -52,7 +52,7 @@ app.frame('/', (c) => {
             whiteSpace: 'pre-wrap',
           }}
         >
-          {status === 'response' ? `Claim $SOCIAL` : ' $SOCIAL '}
+          {status === 'response' ? `Claim $SOCIAL` : ' CLAIM YOUR $SOCIAL AIRDROP '}
         </div>
       </div>
     ),
