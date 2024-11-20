@@ -43,8 +43,16 @@ app.frame('/', (c) => {
         }}
       >
         <div
-          class="relative w-full cursor-pointer border-0 border-b border-faint" style="aspect-ratio: 1 / 1;"><img src="https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/b2203320-3307-4a1a-7cbb-299bec5efb00/rectcontain3" alt="Farcaster frame image" class="absolute inset-0 h-full w-full object-cover" style="aspect-ratio: 1 / 1; opacity: 1;">
-        </div>
+          style={{
+            backgroundColor: 'rgba(255, 255, 255, 0.1)', // Latar belakang semi-transparan untuk teks
+            borderRadius: '10px',
+            color: '#FFFFFF', // Teks putih
+            fontSize: 48,
+            padding: '20px',
+            whiteSpace: 'pre-wrap',
+          }}
+        >
+          {status === 'response' ? `Claim $SOCIAL` : ' CLAIM YOUR $SOCIAL AIRDROP '}
       </div>
     ),
     intents: [
