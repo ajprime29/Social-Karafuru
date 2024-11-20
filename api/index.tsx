@@ -43,16 +43,7 @@ app.frame('/', (c) => {
         }}
       >
         <div
-          style={{
-            backgroundColor: 'rgba(255, 255, 255, 0.1)', // Latar belakang semi-transparan untuk teks
-            borderRadius: '10px',
-            color: '#FFFFFF', // Teks putih
-            fontSize: 48,
-            padding: '20px',
-            whiteSpace: 'pre-wrap',
-          }}
-        >
-          {status === 'response' ? `Claim $SOCIAL` : ' $SOCIAL '}
+          class="relative w-full cursor-pointer border-0 border-b border-faint" style="aspect-ratio: 1 / 1;"><img src="https://i.ibb.co.com/vPd2HC6/GXw-Ciopak-AEQ3l-X.jpg" alt="Farcaster frame image" class="absolute inset-0 h-full w-full object-cover" style="aspect-ratio: 1 / 1; opacity: 1;">
         </div>
       </div>
     ),
